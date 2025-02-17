@@ -1,5 +1,4 @@
 #include <stdio.h>
-
 /**
 * main - Entry point
 *
@@ -7,8 +6,9 @@
 */
 int main(void)
 {
-int n = 0 ; 
-while (n < 10)
+int n = 0;
+
+while (n <= 9)
 {
 printf(n);
 n++;
