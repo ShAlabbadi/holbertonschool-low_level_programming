@@ -10,9 +10,9 @@ int n = 0;
 
 while (n <= 9)
 {
-printf(n);
+printf("%i", n);
 n++;
 }
-printf('\n');
+printf("\n");
 return (0);
 }
