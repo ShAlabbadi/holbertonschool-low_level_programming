@@ -1,10 +1,7 @@
 #include "main.h"
 /**
 * jack_bauer - function that prints every minute of the day of Jack Bauer.
-* @H : the integer that hold the valeu of hours the og the day.
-* @h : anothe integer that hold the valeu of hours the og the day.
-* @m : the integer that hold the valeu of minutes the og the day.
-* @M : the integer that hold the valeu of minutes the og the day.
+*
 * Return : 0
 */
 void jack_bauer(void)
