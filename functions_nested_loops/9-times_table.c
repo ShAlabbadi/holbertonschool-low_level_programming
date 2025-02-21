@@ -20,7 +20,7 @@ _putchar(',');
 _putchar(' ');
 _putchar(' ');
 }
-else 
+else
 {
 _putchar((x / 10) + '0');
 _putchar((x % 10) + '0');
