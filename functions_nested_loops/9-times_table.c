@@ -15,15 +15,18 @@ x = num1 * num2;
 
 if (x <= 9)
 {
-/*_putchar( x + '0');
-_putchar(',');*/
+_putchar((x % 10) + '0');
+_putchar(',');
+_putchar(' ');
 _putchar(' ');
 }
-else
+else 
+{
 _putchar((x / 10) + '0');
 _putchar((x % 10) + '0');
 _putchar(',');
 _putchar(' ');
+}
 }
 _putchar('\n');
 }
