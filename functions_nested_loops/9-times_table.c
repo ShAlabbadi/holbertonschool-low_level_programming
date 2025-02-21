@@ -10,7 +10,7 @@ int num1, num2, x;
 for (num1 = 0; num1 <= 9; num1++)
 {
 _putchar('0');
-for (num2 = 0; num2 <= 9; num2++)
+for (num2 = 1; num2 <= 9; num2++)
 {
 x = num1 * num2;
 
