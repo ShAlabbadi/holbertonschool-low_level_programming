@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* print_diagonal - function that draws a straight line in the terminal.
+* print_diagonal - function that draws a diagonal line on the terminal.
 * @n : the number of spsce.
 * Return: a '\' after n * space.
 */
