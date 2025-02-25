@@ -11,13 +11,13 @@ int n;
 for (n = 1; n <= 100; n++)
 {
 if ((n % 3 == 0) && (n % 5 == 0))
-printf("%s ","FizzBuzz");
+printf("FizzBuzz ");
 
 else if (n % 3 == 0)
-printf("%s ", "Fizz");
+printf("Fizz ");
 
 else if (n % 5 == 0)
-printf("%s ", "Buzz");
+printf("Buzz ");
 
 else
 printf("%d ", n);
