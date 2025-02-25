@@ -11,24 +11,18 @@ int n;
 for (n = 1; n <= 100; n++)
 {
 if ((n % 3 == 0) && (n % 5 == 0))
-{
-printf("%s", "FizzBuzz");
-putchar(' ');
-}
+printf("%s ","FizzBuzz");
+
 else if (n % 3 == 0)
-{
-printf("%s", "Fizz");
-putchar(' ');
-}
+printf("%s ", "Fizz");
+
 else if (n % 5 == 0)
-{
-printf("%s", "Buzz");
-putchar(' ');
-}
+printf("%s ", "Buzz");
+
 else
-printf("%d", n);
-putchar(' ');
+printf("%d ", n);
 }
+
 putchar('\n');
 return (0);
 }
