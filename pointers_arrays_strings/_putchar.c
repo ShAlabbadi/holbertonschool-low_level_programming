@@ -1,20 +1,13 @@
-#include "holberton.h"
+#include <unistd.h>
 
 /**
- * _puts - Write a function that prints a string, followed by a new line, to
- * stdout.
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
  *
- * @str: This is my input string
- *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
  */
-
-void _puts(char *str)
+int _putchar(char c)
 {
-	int index;
-
-	for (index = 0; str[index] != '\0'; index++)
-	{
-		_putchar(str[index]);
-	}
-	_putchar('\n');
+	return (write(1, &c, 1));
 }
