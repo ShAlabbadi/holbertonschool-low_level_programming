@@ -4,7 +4,7 @@
 *                                  to uppercase.
 * @p: the string.
 * Return: the p string
-*/ 
+*/
 char *string_toupper(char *p)
 {
 int i;
