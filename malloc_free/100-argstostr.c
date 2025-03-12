@@ -27,7 +27,7 @@ for (c = i = 0; i < ac; i++)
 }
 
 aout = malloc((c + 1) * sizeof(char));
-	
+
 if (aout == NULL)
 {
 	free(aout);
@@ -48,6 +48,4 @@ for (i = j = ia = 0; ia < c; j++, ia++)
 }
 aout[ia] = '\0';
 return (aout);
-
-
 }
